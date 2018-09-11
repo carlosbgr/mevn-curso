@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 
 const app = express()
 
-mongoose.connect('mongodb://localhost/mevn-database')
+mongoose.connect('mongodb://localhost/mevn-database', { useNewUrlParser: true })
     .then(db => console.log('DB is connected'))
     .catch(err => console.error)
 
