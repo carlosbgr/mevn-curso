@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "webpack": "webpack --mode development --watch",
-    "build": "webpack --mode production",
-    "push": "git push origin master"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Carlos Balaguer <balaguer.88@gmail.com>",
